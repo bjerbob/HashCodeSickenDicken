@@ -37,6 +37,7 @@ public class App {
         
        log.debug("You may configure 'src/main/resources/log4j2.xml' ");
        log.debug("for adapting both console and 'A1.log' file output");
+       System.out.println('Test');
     }
 
     /**
