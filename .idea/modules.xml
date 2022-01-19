@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/HashCode/HashCode.iml" filepath="$PROJECT_DIR$/HashCode/HashCode.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/HashCodeSickenDicken.iml" filepath="$PROJECT_DIR$/.idea/HashCodeSickenDicken.iml" />
     </modules>
   </component>
