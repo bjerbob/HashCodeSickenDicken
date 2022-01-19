@@ -14,10 +14,14 @@ import java.io.*;
 
 public class App {
     private static Logger log = LogManager.getLogger(App.class);
-    static File file = new File("HashCode/input_data/b_basic.in.txt");
+    static File fileA = new File("HashCode/input_data/a_an_example.in.txt");
+    static File fileB = new File("HashCode/input_data/b_basic.in.txt");
+    static File fileC = new File("HashCode/input_data/coarse.in.txt");
+    static File fileD = new File("HashCode/input_data/difficult.in.txt");
+    static File fileE = new File("HashCode/input_data/e_elaborate.in.txt");
 
     public static void main( String[] args ) throws IOException {
-        readAllCharactersOneByOne(new FileReader(file));
+        readAllCharactersOneByOne(new FileReader(fileA));
     }
 
     public static String readAllCharactersOneByOne(Reader reader) throws IOException {
@@ -26,7 +30,7 @@ public class App {
         while ((nextChar = reader.read()) != -1) {
             content.append((char) nextChar);
         }
-        System.out.println(String.valueOf(content));
+        System.out.println(content);
         return String.valueOf(content);
     }
 }
